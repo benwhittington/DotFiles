@@ -1,0 +1,8 @@
+#!/bin/bash
+alias cdebox='cd ~/eroad/firmware/gen2/ebox'
+alias cdstack='cd ~/eroad/firmware/gen2/ebox/tools/stacktrace'
+alias cdjourneytools='cd ~/eroad/firmware/gen2/tools/tools/journey_tools'
+alias cdffw='cd ~/eroad/firmware/gen2/factory-firmware'
+alias cdremote='cd ~/eroad/firmware/gen2/tools/tools/remote'
+alias cdautotest='cd ~/eroad/automation/automation-firmware/'
+alias cdcorehubapp='cd ~/cortex/honeycomb/corehubapp'

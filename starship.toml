@@ -1,0 +1,52 @@
+add_newline = false
+
+#format = "$dir$git"
+
+#SPACESHIP_PROMPT_ORDER=(
+#    dir
+#)
+
+[character]
+success_symbol = "[❯](bold purple)"
+
+error_symbol = "[✘ ](bold red)"
+
+[git_branch]
+symbol = ""
+style = "bold yellow"
+
+[aws]
+disabled=true
+
+[java]
+disabled=true
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+modified = "${count}m"
+untracked = "${count}u"
+ahead = "${count}a"
+behind = "${count}b"
+stashed = ""
+
+[python]
+pyenv_prefix = ""
+python_binary = ["python3"]
+format = 'via [${symbol}${pyenv_prefix}(${version} )(venv \($virtualenv\) )]($style)'
+pyenv_version_name = true
+
+[memory_usage]
+disabled = true
+threshold = 75
+symbol = " "
+style = "bold dimmed green"
+
+[package]
+disabled=true
+
+[time]
+disabled = false
+style = "bold yellow"
+time_format = "%I:%M"
+use_12hr = true
+format = '([$time]($style)) '
